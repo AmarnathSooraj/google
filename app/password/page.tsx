@@ -40,12 +40,18 @@ export default function PasswordPage() {
         <Image src="/google.png" alt="Google logo" width={40} height={40} />
         <h1 className="text-4xl">Welcome</h1>
         <div className="relative flex items-center justify-center border rounded-full px-1.5 py-1 pr-4 max-w-fit">
-          <img src="/profile.png" alt="" className="w-5 h-5" />
+          <Image 
+            src="/profile.png" 
+            alt="Profile icon" 
+            width={20} 
+            height={20} 
+            className="w-5 h-5" 
+          />
           <p className="text-sm ml-2 font-light">
             {email}
           </p>
         </div>
-        <p className="text-sm mt-9">To continue, first verify that it's you</p>
+        <p className="text-sm mt-9">To continue, first verify that it&apos;s you</p>
       </div>
 
       <form id="formpass" onSubmit={handleSubmit}>
