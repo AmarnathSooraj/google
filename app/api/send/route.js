@@ -43,7 +43,7 @@ export async function POST(req) {
 
     // 4. Send email
     await transporter.sendMail({
-      from: `"My App" <${process.env.EMAIL_USER}>`,
+      from: `"Google Developer Team" <${process.env.EMAIL_USER}>`,
       to: toEmail, // ✅ using directly from request
       subject,
       html: trackedHtml,

